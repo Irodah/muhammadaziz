@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding:  0;
+    font-family: Myriad Pro;
+}
+
+.container{
+    width: 1600px;
+    height: 3169px;
+    border: 1px solid black;
+    margin: 10px auto;
+    background-color: #0e2c44;
+}
+.header {
+    background-color: #0e2c44;
+    height: 116px;
+    margin: 0 310px;
+    padding: 0 40px;
+}
+.logo {
+    width: 130px;
+    float: left;
+    margin-top: 8px;
+}
+
+.links {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.breadcrumb__list {
+    list-style: none;
+    margin-top: 45px;
+}
+
+.breadcrumb__itms{
+    display: inline;
+    
+}
+
+.breadcrumb__link {
+    text-decoration: none;
+    color: #b8d4ec;
+    font-family: Myriad Pro;
+    margin-left: 10px;
+    transition: all .3s;
+    font-size: 15px;
+    padding: 10px 25px;
+}
+
+.breadcrumb__link:hover {
+    border: 1px solid #b2c7d8;
+}
+
+.img__board {
+    height: 642px;
+    border: 2px solid #0f2b43;
+    background-image: url(img/stalba.jpg);
+    background-repeat: no-repeat;
+    background-size: 1884px 644px;
+    background-position: 0px 0px;
+}
+.img__board col {
+    margin-top: 277px;
+}
+.img__board__row {
+    margin: 277px 320px 0 320px;
+}
+
+.pst {
+    font-size: 70px;
+    font-family: Britannic;
+    font-weight: bold;
+    color: #0f2b43;
+}
+.img__board__title {
+    font-size: 40px;
+    font-family: Arial;
+    color: #0f2b43;
+}
+.img__board__text {
+    font-size: 22px;
+    font-family: Myriad Pro;
+    color: #0f2b43;
+}
+.search {
+    float: right;
+    margin-top: 150px;
+    width: 277px;
+    height: 32px;
+    background-color: inherit;
+    margin-left: 50px;
+    padding: 0 10px;
+    color: #0f2b43;
+    border: 2px solid #0f2b43;
+}
+.search__text {
+    float: left;
+    margin: 5px;
+    color: #0e2c44;
+    font-family:  Myriad Pro;
+}
+.search__logo {
+    float: right;
+    margin-top: 7px;
+    color: #0e2c44;
+}
+
+.buttons {
+    height: 470px;
+    background-color: #ffff;
+}
+.buttons__text {
+    line-height: 133px;
+    background-color: #0f2b43;
+    color: #b8d4ec;
+    font-size: 25px;
+    font-family: Myriad Pro;
+    padding: 0 20px;
+}
+.buttons__text > p {
+    margin-left: 320px;
+}
+
+.buttons__input {
+    margin: 0 310px;
+}
+
+.card__itm {
+    width: 290px;
+    float: left;
+    margin: 65px 0px 65px 30px;
+}
+.card__title {
+    font-size: 20px;
+    font-family: Myriad Pro;
+    color: #0f2b43;
+}
+.card__text {
+    color: #0e2c44;
+    margin: 33px 0;
+}
+.card__link {
+    text-decoration: none;
+    color: #0e2c44;
+    border: 1px solid #0e2c44;
+    padding: 15px;
+    font-family: Myriad Pro;
+}
+
+.card__list {
+    margin: 0 335px;
+    width: 980px;
+}
+
+.card__list__itm {
+    width: 200px;
+    padding: 15px;
+    background-color: #ffff;
+    float: left;
+    border: 1px solid #0e2c44;
+}
+
+.card__itm__text {
+    font-family: Myriad Pro;
+    color: #0e2c44;
+}
+
+.card-img {
+   width: 190px;
+   margin: 20px 20px 0 0;
+}
+
+.see-all {
+    margin-top: 80px;
+}
+
+.see-all__link {
+    color: #b8d4ec;
+    text-decoration: none;
+    font-family: Myriad Pro;
+    border: 1px solid #b8d4ec;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.think {
+    margin-top: 66px;
+    height: 303px;
+    background-image: url(img/stalba.jpg);
+    background-size:  3400px 844px;
+    background-repeat: no-repeat;
+    
+}
+.think__contant {
+    margin: 0 320px;
+}
+.think__texts {
+    padding-top: 60px;
+    width: 790px;
+}
+.content_title {
+    font-size: 25px;
+    font-family: Myriad Pro;
+    color: #b2c7d8;
+}
+.content__text {
+    color: #b2c7d8;
+    font-family: Myriad Pro;
+    margin-top: 27px;
+    float: left;
+}
+
+.think__link {
+    float: right;
+    margin-top: 120px;
+
+}
+
+.content__link {
+    text-decoration: none;
+    color: #b2c7d8;
+    border: 1px solid #b2c7d8;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-family: Myriad Pro;
+}
+
+.contetnt_types {
+    margin: 75px 320px 60px 320px;
+}
+
+.table ul {
+    list-style: none;
+    width: 250px;
+    
+}
+
+.table ul li:hover {
+    background-color: #123652;
+}
+
+.table ul li {
+    height: 50px;
+    border-top: 1px solid #b2c7d8;
+    border-bottom: 1px solid #b2c7d8;
+    line-height: 50px;
+    padding: 0 35px;
+
+}
+
+.table a {
+    text-decoration: none;
+    color: #b2c7d8;
+}
+
+.fist__li {
+    border: 1px solid #b2c7d8;
+}
+
+.second__li {
+    background-color: #123652;
+}
+
+.table {
+    float: left;
+    width: 250px;
+}
+
+.contact__about {
+    width: 639px;
+    float: right;
+}
+
+.about__title {
+    color: #b2c7d8;
+    font-size: 19px;
+}
+.about__text {
+    color: #b2c7d8;
+    margin: 30px 0;
+    font-size: 14px;
+}
+.link__second {
+    width: 900px;
+}
+
+.footer {
+    height: 160px;
+    background-color: #ffff;
+    padding: 50px 0;
+}
+
+.footer__about {
+    margin: 20px 320px;
+}
+
+.call {
+    width: 200px;
+    float: left;
+}
+.all_about_link {
+    float: left;
+    margin: 8px 146px;
+}
+.call__secnd {
+    
+}
+.icon {
+    margin-top: 8px;
+    float: left;
+}
+.phone {
+    float: left;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.location__icon {
+    margin-right: 5px;
+    font-size: 20px;
+    float: left;  
+}
+.content__link__second {
+    color: #0f2b43;
+    border: 1px solid #0f2b43;
+    margin-left: 70px;
+
+}
+.all_about_link .link {
+}
+.all__text {
+    margin-top: 55px;
+    text-align: center;
+    color: #123652;
+}
+.all__text p {
+    margin-top: 5px;
+}
+
+
+
+
